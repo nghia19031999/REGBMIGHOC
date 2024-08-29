@@ -24,7 +24,7 @@ namespace REGBMIGHOC
         public Form1()
         {
             InitializeComponent();
-
+            //Trung Chanh
         }
 
         private void test()
