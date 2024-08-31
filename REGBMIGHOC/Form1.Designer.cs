@@ -30,13 +30,13 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.dgv1 = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.cStt = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cUsername = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cPass = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cCheckBM = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label1 = new System.Windows.Forms.Label();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.dgv1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
@@ -73,22 +73,6 @@
             this.dgv1.Size = new System.Drawing.Size(776, 251);
             this.dgv1.TabIndex = 1;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(195, 44);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "số luồng:";
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Location = new System.Drawing.Point(251, 44);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
-            this.numericUpDown1.TabIndex = 3;
-            // 
             // cStt
             // 
             this.cStt.HeaderText = "STT";
@@ -113,6 +97,22 @@
             // 
             this.cCheckBM.HeaderText = "CHECKBM";
             this.cCheckBM.Name = "cCheckBM";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(122, 32);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(50, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "số luồng:";
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(178, 30);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(93, 20);
+            this.numericUpDown1.TabIndex = 3;
             // 
             // Form1
             // 

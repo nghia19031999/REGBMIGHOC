@@ -67,6 +67,9 @@
     <Reference Include="WebDriver.Support, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Selenium.Support.4.23.0\lib\netstandard2.0\WebDriver.Support.dll</HintPath>
     </Reference>
+    <Reference Include="xNet">
+      <HintPath>..\..\..\..\Downloads\xNet\xNet.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Form1.cs">
